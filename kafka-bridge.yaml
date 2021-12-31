@@ -1,0 +1,9 @@
+apiVersion: kafka.strimzi.io/v1beta2
+kind: KafkaBridge
+metadata:
+  name: quickstart 
+spec:
+  replicas: 1
+  bootstrapServers: do-sfo3-k8s-1-21-5-do-0-sfo3-164098876873-kafka-bootstrap:9092 
+  http:
+    port: 8080
