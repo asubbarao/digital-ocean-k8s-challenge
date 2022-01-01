@@ -56,5 +56,5 @@ and we can describe each Falco pod: `kubectl -n falco describe pod falco-prxjk`
 ![](/images/falco_pods.png)
 
 We can check whether Falco works with the following command, and check each pod: `kubectl -n falco logs -f falco-prxjk`
- 
-[](/images/falco_2.png) 
+
+[](/images/falco_2.png)
