@@ -53,8 +53,12 @@ We check to make sure the Falco pods are created with `kubectl -n falco get pods
 
 and we can describe each Falco pod: `kubectl -n falco describe pod falco-prxjk`
 
-[](/images/falco_pods.png)
+![](/images/falco_pods.png)
 
 We can check whether Falco works with the following command, and check each pod: `kubectl -n falco logs -f falco-prxjk`
 
+<<<<<<< HEAD
 [](/images/falco_2.png)
+=======
+![](/images/falco_logs.png)
+>>>>>>> 33d066fd23bb1215d151b0221bab814145a1e8f1
